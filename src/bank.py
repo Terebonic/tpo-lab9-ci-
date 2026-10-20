@@ -1,5 +1,5 @@
 """Бизнес-логика банковского счёта — объект модульного тестирования ЛР №6."""
-from decimal import Decimal, ROUND_DOWN, ROUND_HALF_UP
+from decimal import Decimal, ROUND_HALF_UP
 
 CENT = Decimal("0.01")
 
@@ -18,7 +18,7 @@ def to_money(value):
         raise ValueError(f"Некорректная сумма: {value!r}") from None
     if not d.is_finite():
         raise ValueError(f"Некорректная сумма: {value!r}")
-    return d.quantize(CENT, rounding=ROUND_DOWN)
+    return d.quantize(CENT, rounding=ROUND_HALF_UP)
 
 
 class BankAccount:
