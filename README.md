@@ -1,6 +1,6 @@
 # ТПО, ЛР №9 — автотесты в CI/CD (GitHub Actions)
 
-![Tests](https://github.com/Terebonic/tpo-lab9-ci/actions/workflows/tests.yml/badge.svg)
+![Tests](https://github.com/Terebonic/tpo-lab9-ci-/actions/workflows/tests.yml/badge.svg)
 
 Матюшкин С. И., группа 231-331, «Тестирование программного обеспечения».
 
